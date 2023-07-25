@@ -1,0 +1,137 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /index/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /index/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /                         --> music-go/router.Route.func1 (4 handlers)
+[GIN-debug] GET    /uid                      --> music-go/router.Route.func2 (4 handlers)
+[GIN-debug] GET    /album/:id                --> music-go/controller/album.Album (4 handlers)
+[GIN-debug] GET    /login/cellphone/         --> music-go/controller/login.LoginCellPhone (4 handlers)
+[GIN-debug] GET    /login/                   --> music-go/controller/login.LoginEmail (4 handlers)
+[GIN-debug] GET    /login/refresh            --> music-go/controller/login.LoginRefresh (4 handlers)
+[GIN-debug] GET    /login/status             --> music-go/controller/login.LoginStatus (4 handlers)
+[GIN-debug] GET    /logout                   --> music-go/controller/login.LogOut (4 handlers)
+[GIN-debug] GET    /user/detail              --> music-go/controller/user.UserDetail (4 handlers)
+[GIN-debug] GET    /user/subcount            --> music-go/controller/user.UserSubCount (4 handlers)
+[GIN-debug] GET    /user/audio               --> music-go/controller/user.UserAudio (4 handlers)
+[GIN-debug] GET    /user/cloud               --> music-go/controller/user.UserCloud (4 handlers)
+[GIN-debug] GET    /user/cloudsearch         --> music-go/controller/user.UserCloudSearch (4 handlers)
+[GIN-debug] GET    /user/dj                  --> music-go/controller/user.UserDj (4 handlers)
+[GIN-debug] GET    /user/event               --> music-go/controller/user.UserEvent (4 handlers)
+[GIN-debug] GET    /user/followeds           --> music-go/controller/user.UserFolloweds (4 handlers)
+[GIN-debug] GET    /user/follows             --> music-go/controller/user.UserFollows (4 handlers)
+[GIN-debug] GET    /user/record              --> music-go/controller/user.UserRecord (4 handlers)
+[GIN-debug] GET    /user/update              --> music-go/controller/user.UserUpdate (4 handlers)
+[GIN-debug] GET    /user/playlist            --> music-go/controller/user.UserPlayList (4 handlers)
+[GIN-debug] GET    /video/detail             --> music-go/controller/video.VedioDetail (4 handlers)
+[GIN-debug] GET    /video/sub                --> music-go/controller/video.VedioSub (4 handlers)
+[GIN-debug] GET    /video/url                --> music-go/controller/video.VedioUrl (4 handlers)
+[GIN-debug] GET    /artist/mv                --> music-go/controller/artist.ArtistMv (4 handlers)
+[GIN-debug] GET    /artist/album             --> music-go/controller/artist.ArtistAlbum (4 handlers)
+[GIN-debug] GET    /artist                   --> music-go/controller/artist.Artist (4 handlers)
+[GIN-debug] GET    /artist/list              --> music-go/controller/artist.ArtistList (4 handlers)
+[GIN-debug] GET    /artist/sub               --> music-go/controller/artist.ArtistSub (4 handlers)
+[GIN-debug] GET    /artist/sublist           --> music-go/controller/artist.ArtistSubList (4 handlers)
+[GIN-debug] GET    /artists                  --> music-go/controller/artist.Artists (4 handlers)
+[GIN-debug] GET    /comment/album            --> music-go/controller/comment.CommentAlbum (4 handlers)
+[GIN-debug] GET    /comment/dj               --> music-go/controller/comment.CommentDj (4 handlers)
+[GIN-debug] GET    /comment/hot              --> music-go/controller/comment.CommentHot (4 handlers)
+[GIN-debug] GET    /comment/like             --> music-go/controller/comment.CommentLike (4 handlers)
+[GIN-debug] GET    /comment/music            --> music-go/controller/comment.CommentMusic (4 handlers)
+[GIN-debug] GET    /comment/mv               --> music-go/controller/comment.CommentMV (4 handlers)
+[GIN-debug] GET    /comment/playlist         --> music-go/controller/comment.CommentPlayList (4 handlers)
+[GIN-debug] GET    /comment/video            --> music-go/controller/comment.CommentVidio (4 handlers)
+[GIN-debug] GET    /comment                  --> music-go/controller/comment.Comment (4 handlers)
+[GIN-debug] GET    /daily_signin             --> music-go/controller/signin.DailySignin (4 handlers)
+[GIN-debug] GET    /dj/recommend             --> music-go/controller/dj.DjRecommend (4 handlers)
+[GIN-debug] GET    /dj/catelist              --> music-go/controller/dj.DjCatelist (4 handlers)
+[GIN-debug] GET    /dj/recommend/type        --> music-go/controller/dj.DjRecommendType (4 handlers)
+[GIN-debug] GET    /dj/sub                   --> music-go/controller/dj.DjSub (4 handlers)
+[GIN-debug] GET    /dj/sublist               --> music-go/controller/dj.DjSublist (4 handlers)
+[GIN-debug] GET    /dj/paygift               --> music-go/controller/dj.DjPayGift (4 handlers)
+[GIN-debug] GET    /dj/detail                --> music-go/controller/dj.DjDetail (4 handlers)
+[GIN-debug] GET    /dj/program               --> music-go/controller/dj.DjProgram (4 handlers)
+[GIN-debug] GET    /dj/program/detail        --> music-go/controller/dj.DjProgramDetail (4 handlers)
+[GIN-debug] GET    /dj/host                  --> music-go/controller/dj.DjHost (4 handlers)
+[GIN-debug] GET    /event                    --> music-go/controller/event.Event (4 handlers)
+[GIN-debug] GET    /fm_trash                 --> music-go/controller/fm.FmTrash (4 handlers)
+[GIN-debug] GET    /follow                   --> music-go/controller/follow.Follow (4 handlers)
+[GIN-debug] GET    /like                     --> music-go/controller/like.Like (4 handlers)
+[GIN-debug] GET    /likelist                 --> music-go/controller/like.LikeList (4 handlers)
+[GIN-debug] GET    /lyric                    --> music-go/controller/lyric.Lyric (4 handlers)
+[GIN-debug] GET    /mv/detail                --> music-go/controller/mv.MvDetail (4 handlers)
+[GIN-debug] GET    /mv/url                   --> music-go/controller/mv.MvUrl (4 handlers)
+[GIN-debug] GET    /mv/sub                   --> music-go/controller/mv.MvSub (4 handlers)
+[GIN-debug] GET    /mv/sublist               --> music-go/controller/mv.MvList (4 handlers)
+[GIN-debug] GET    /mv/fist                  --> music-go/controller/mv.MvFist (4 handlers)
+[GIN-debug] GET    /personal_fm              --> music-go/controller/personal.PersonalFm (4 handlers)
+[GIN-debug] GET    /personalized/mv          --> music-go/controller/personal.PersonalizedMv (4 handlers)
+[GIN-debug] GET    /personalized/newsong     --> music-go/controller/personal.PersonalizedNewsong (4 handlers)
+[GIN-debug] GET    /personalized/djprogram   --> music-go/controller/personal.PersonalizedDjprogram (4 handlers)
+[GIN-debug] GET    /personalized/privatecontent --> music-go/controller/personal.PersonalizedPrivatecontent (4 handlers)
+[GIN-debug] GET    /personalized             --> music-go/controller/personal.Personalized (4 handlers)
+[GIN-debug] GET    /playlist/update          --> music-go/controller/playlist.PlayListUpdate (4 handlers)
+[GIN-debug] GET    /playlist/catlist         --> music-go/controller/playlist.PlayListCatlist (4 handlers)
+[GIN-debug] GET    /playlist/hot             --> music-go/controller/playlist.PlayListHot (4 handlers)
+[GIN-debug] GET    /playlist/detail          --> music-go/controller/playlist.PlayListDetail (4 handlers)
+[GIN-debug] GET    /playlist/create          --> music-go/controller/playlist.PlayListCreate (4 handlers)
+[GIN-debug] GET    /playlist/subscribe       --> music-go/controller/playlist.PlayListSubscribe (4 handlers)
+[GIN-debug] GET    /playlist/tracks          --> music-go/controller/playlist.PlayListTracks (4 handlers)
+[GIN-debug] GET    /recommend/source         --> music-go/controller/recommend.RecommendResource (4 handlers)
+[GIN-debug] GET    /recommend/songs          --> music-go/controller/recommend.RecommendSongs (4 handlers)
+[GIN-debug] GET    /program/recommend        --> music-go/controller/recommend.ProgramRecommend (4 handlers)
+[GIN-debug] GET    /search                   --> music-go/controller/search.Search (4 handlers)
+[GIN-debug] GET    /search/suggest           --> music-go/controller/search.SearchSuggest (4 handlers)
+[GIN-debug] GET    /search/multimatch        --> music-go/controller/search.SearchMultiMatch (4 handlers)
+[GIN-debug] GET    /search/hot               --> music-go/controller/search.SearchHot (4 handlers)
+[GIN-debug] GET    /send/text                --> music-go/controller/send.SendText (4 handlers)
+[GIN-debug] GET    /send/playlist            --> music-go/controller/send.SendPlayList (4 handlers)
+[GIN-debug] GET    /simi/artist              --> music-go/controller/simi.SimiArtist (4 handlers)
+[GIN-debug] GET    /simi/playlist            --> music-go/controller/simi.SimiPlayList (4 handlers)
+[GIN-debug] GET    /simi/mv                  --> music-go/controller/simi.SimiMV (4 handlers)
+[GIN-debug] GET    /simi/song                --> music-go/controller/simi.SimiSong (4 handlers)
+[GIN-debug] GET    /simi/user                --> music-go/controller/simi.SimiUser (4 handlers)
+[GIN-debug] GET    /song/detail              --> music-go/controller/song.SongDetail (4 handlers)
+[GIN-debug] GET    /song/url                 --> music-go/controller/song.SongUrl (4 handlers)
+[GIN-debug] GET    /top/playlist             --> music-go/controller/top.TopPlayList (4 handlers)
+[GIN-debug] GET    /top/playlist/highquality --> music-go/controller/top.TopPlayListHighQuality (4 handlers)
+[GIN-debug] GET    /top/album                --> music-go/controller/top.TopAlbum (4 handlers)
+[GIN-debug] GET    /top/artists              --> music-go/controller/top.TopArtists (4 handlers)
+[GIN-debug] GET    /top/mv                   --> music-go/controller/top.TopMv (4 handlers)
+[GIN-debug] GET    /top/song                 --> music-go/controller/top.TopSong (4 handlers)
+[GIN-debug] GET    /toplist                  --> music-go/controller/top.TopList (4 handlers)
+[GIN-debug] GET    /toplist/artist           --> music-go/controller/top.TopListArtist (4 handlers)
+[GIN-debug] GET    /toplist/detail           --> music-go/controller/top.TopListDetail (4 handlers)
+[GIN-debug] GET    /top/list                 --> music-go/controller/top.TopArray (4 handlers)
+[GIN-debug] GET    /banner                   --> music-go/controller/banner.Banner (4 handlers)
+[GIN-debug] GET    /check/music              --> music-go/controller/check.CheckMusic (4 handlers)
+[GIN] 2023/07/25 - 10:09:04 | 307 |            0s |       127.0.0.1 | GET      "/"
+[GIN-debug] redirecting request 301: /index/ --> /index/
+[GIN] 2023/07/25 - 10:09:04 | 200 |     53.7225ms |       127.0.0.1 | GET      "/index/"
+[GIN] 2023/07/25 - 10:09:05 | 307 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2023/07/25 - 10:09:05 | 200 |            0s |       127.0.0.1 | GET      "/index/"
+[GIN] 2023/07/25 - 10:09:06 | 200 |         508µs |       127.0.0.1 | GET      "/index/js/app.c958c5c9.js"
+[GIN] 2023/07/25 - 10:09:06 | 200 |      8.7573ms |       127.0.0.1 | GET      "/index/js/chunk-vendors.521a5bc3.js"
+[GIN] 2023/07/25 - 10:09:06 | 200 |            0s |       127.0.0.1 | GET      "/index/css/app.738059ba.css"
+[GIN] 2023/07/25 - 10:09:06 | 200 |       743.6µs |       127.0.0.1 | GET      "/index/css/84.00e80f21.css"
+[GIN] 2023/07/25 - 10:09:06 | 200 |       414.3µs |       127.0.0.1 | GET      "/index/css/422.f67c7e7c.css"
+[GIN] 2023/07/25 - 10:09:06 | 200 |            0s |       127.0.0.1 | GET      "/index/js/422.67aba7cd.js"
+[GIN] 2023/07/25 - 10:09:06 | 200 |      1.0006ms |       127.0.0.1 | GET      "/index/js/84.e13faca8.js"
+[GIN] 2023/07/25 - 10:09:06 | 200 |       218.4µs |       127.0.0.1 | GET      "/index/img/bg-1.2b71041a.jpg"
+[GIN] 2023/07/25 - 10:09:06 | 404 |            0s |       127.0.0.1 | GET      "/favicon.ico"
+[GIN] 2023/07/25 - 10:09:06 | 200 |    381.6524ms |       127.0.0.1 | GET      "/playlist/detail?id=3778678"
+[GIN] 2023/07/25 - 10:11:36 | 307 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2023/07/25 - 10:11:36 | 200 |     52.5244ms |       127.0.0.1 | GET      "/index/"
+[GIN] 2023/07/25 - 10:11:36 | 307 |       160.2µs |       127.0.0.1 | GET      "/"
+[GIN] 2023/07/25 - 10:11:36 | 200 |            0s |       127.0.0.1 | GET      "/index/"
+[GIN] 2023/07/25 - 10:11:36 | 200 |      1.7934ms |       127.0.0.1 | GET      "/index/js/chunk-vendors.521a5bc3.js"
+[GIN] 2023/07/25 - 10:11:36 | 200 |       743.6µs |       127.0.0.1 | GET      "/index/js/app.c958c5c9.js"
+[GIN] 2023/07/25 - 10:11:36 | 200 |            0s |       127.0.0.1 | GET      "/index/css/app.738059ba.css"
+[GIN] 2023/07/25 - 10:11:36 | 200 |       237.4µs |       127.0.0.1 | GET      "/index/css/84.00e80f21.css"
+[GIN] 2023/07/25 - 10:11:36 | 200 |            0s |       127.0.0.1 | GET      "/index/css/422.f67c7e7c.css"
+[GIN] 2023/07/25 - 10:11:36 | 200 |            0s |       127.0.0.1 | GET      "/index/js/422.67aba7cd.js"
+[GIN] 2023/07/25 - 10:11:36 | 200 |         530µs |       127.0.0.1 | GET      "/index/js/84.e13faca8.js"
+[GIN] 2023/07/25 - 10:11:37 | 200 |       350.7µs |       127.0.0.1 | GET      "/index/img/bg-3.a7bc9606.jpg"
+[GIN] 2023/07/25 - 10:11:37 | 200 |     424.276ms |       127.0.0.1 | GET      "/playlist/detail?id=3778678"
+[GIN] 2023/07/25 - 10:11:37 | 404 |            0s |       127.0.0.1 | GET      "/favicon.ico"

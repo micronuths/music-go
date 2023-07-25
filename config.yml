@@ -1,0 +1,7 @@
+go:
+  apiprefix:
+  port: 3002
+  tokenmaxage: 10800
+  env: production # development-开发模式, production-产品模式, test-测试模式
+  logdir: ncma.log
+  tokensecret: AstrRAflaEAA
